@@ -43,7 +43,7 @@ def LinearBottleNeck(x,in_channels,out_channels,stride,expansion):
     return out
 
 
-# Ayoola_comment: I understand the linearbottleneck module structure and the operations of depthwise convolutions above
+
 
 
     #Relu6 is the standard relu with the maximum thresholded to 6
