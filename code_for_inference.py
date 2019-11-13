@@ -108,7 +108,7 @@ def MobileNetV2(input_shape,num_classes=2,multiplier=1.0):
 
 
 
-##Training on Custom Image Dataset
+
 
 #preprocessing function
 def preprocess_input(x):
@@ -119,7 +119,7 @@ def preprocess_input(x):
 model = MobileNetV2(input_shape=(224, 224, 3), num_classes=2)
 model.load_weights("oranges_model.h5")
 
-class_map = {0:"ripe", 1:"unripe"}
+class_map = {0:"ripe orange", 1:"unripe orange"}
 
 def predictImage(image_path):
 
