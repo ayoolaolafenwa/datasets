@@ -33,7 +33,7 @@ def LinearBottleNeck(x,in_channels,out_channels,stride,expansion):
 
     #Relu6 is the standard relu with the maximum thresholded to 6
 def relu6(x):
-    return K.relu(x,max_value=6)
+    return K.relu(x,max_value=6) 
 
 
 def MobileNetV2(input_shape,num_classes=2,multiplier=1.0):
